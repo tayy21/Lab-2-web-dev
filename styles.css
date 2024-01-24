@@ -1,0 +1,38 @@
+nav {
+    display: flex;
+    flex-direction: column;
+    background-color: mediumaquamarine;
+    text-decoration: wavy;
+    width: 15vw;
+    padding: auto;
+    margin: auto;
+}
+
+section {
+    width: 85vw;
+    padding: auto;
+    margin: auto;
+    overflow: auto;
+}
+
+nav a {
+    background-color: mediumaquamarine;
+    color: rgb(68, 68, 116);
+    padding: auto;
+    margin: auto;
+    transition: background-color 0.4s;
+}
+
+nav a:hover {
+    background-color: rgb(191, 156, 224);
+}
+
+.title {
+    text-align: center;
+    background-color: mediumaquamarine;
+    overflow: auto;
+}
+
+.para {
+    background-color: mediumaquamarine;
+}
